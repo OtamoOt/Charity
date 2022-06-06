@@ -1,0 +1,104 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+back/media/
+
+# Django stuff:
+back/*.log
+back/local_settings.py
+back/db.sqlite3
+back/db.sqlite3-journal
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# Environments
+.env
+back/venv/
+
+# static files
+back/static/
+
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# SonarLint plugin
+.idea/sonarlint/
+
+front/.DS_STORE
+front/node_modules
+front/scripts/flow/*/.flowconfig
+front/.flowconfig
+front/*~
+front/*.pyc
+front/.grunt
+front/_SpecRunner.html
+front/__benchmarks__
+front/build/
+front/remote-repo/
+front/coverage/
+front/.module-cache
+front/fixtures/dom/public/react-dom.js
+front/fixtures/dom/public/react.js
+front/test/the-files-to-test.generated.js
+front/*.log*
+front/chrome-user-data
+front/*.sublime-project
+front/*.sublime-workspace
+front/.idea
+front/*.iml
+front/.vscode
+front/*.swp
+front/*.swo
+
+front/packages/react-devtools-core/dist
+front/packages/react-devtools-extensions/chrome/build
+front/packages/react-devtools-extensions/chrome/*.crx
+front/packages/react-devtools-extensions/chrome/*.pem
+front/packages/react-devtools-extensions/firefox/build
+front/packages/react-devtools-extensions/firefox/*.xpi
+front/packages/react-devtools-extensions/firefox/*.pem
+front/packages/react-devtools-extensions/shared/build
+front/packages/react-devtools-extensions/.tempUserDataDir
+front/packages/react-devtools-inline/dist
+front/packages/react-devtools-shell/dist
+front/packages/react-devtools-timeline/dist
